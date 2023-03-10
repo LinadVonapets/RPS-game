@@ -31,7 +31,7 @@ public:
     };
 
 private:    
-    float m_speed = 0.6;
+    float m_speed = 0.5;
     static inline std::vector<Entity::Pair> table{};
     static inline int m_id_counter{0};
 

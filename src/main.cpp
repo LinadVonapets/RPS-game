@@ -6,11 +6,10 @@
 
 const sf::FloatRect g_window_rect(0,0,800,600);
 
-
 int main()
 {   
 
-    sf::RenderWindow win(sf::VideoMode(g_window_rect.width,g_window_rect.height), "rps_life");
+    sf::RenderWindow win(sf::VideoMode(g_window_rect.width,g_window_rect.height), "rps_life", sf::Style::Fullscreen);
     sf::Event event;
     win.setVerticalSyncEnabled(true);
     
@@ -32,4 +31,5 @@ int main()
         
         win.display();
     }
+    
 }
